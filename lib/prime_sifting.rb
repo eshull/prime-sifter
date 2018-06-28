@@ -5,10 +5,7 @@ class NumberSifting
   end
 
   def sifter
-    "hello"
+    answer_array = (2..@number).reject { |i|  i % 2 == 0 }
+
   end
 end
-
-
-enumerator = (1..10).find_all { |i|  i % 3 == 0 }
-puts enumerator
